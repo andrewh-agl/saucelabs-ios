@@ -1,0 +1,25 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "foo",
+  "private": true,
+  "author": "foo",
+  "engines": {
+    "node": "8.11.2",
+    "yarn": "1.13.0"
+  },
+  "scripts": {
+    "smoke:saucelabs:android": "protractor protractor.smoke.saucelabs.android.conf.js --params.environment",
+    "smoke:saucelabs:ios": "protractor protractor.smoke.saucelabs.ios.conf.js --params.environment"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "2.0.6",
+    "jasmine-core": "~2.99.1",
+    "jasmine-reporters": "2.3.2",
+    "jasmine-spec-reporter": "~4.2.1",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "typescript": "2.9.2"
+  }
+}
